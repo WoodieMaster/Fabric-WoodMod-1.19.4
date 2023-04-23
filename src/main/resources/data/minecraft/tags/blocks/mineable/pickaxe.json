@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "woodmod:citrine_ore",
+    "woodmod:citrine_block",
+    "woodmod:deepslate_citrine_ore"
+  ]
+}

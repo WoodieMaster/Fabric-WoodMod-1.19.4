@@ -1,0 +1,10 @@
+{
+  "item.woodmod.citrine": "Citrine",
+  "item.woodmod.raw_citrine": "Raw Citrine",
+
+  "item_group.woodmod_item_group": "WoodMod",
+
+  "block.woodmod.citrine_block": "Block of Citrine",
+  "block.woodmod.citrine_ore": "Citrine Ore",
+  "block.woodmod.deepslate_citrine_ore": "Deepslate Citrine Ore"
+}

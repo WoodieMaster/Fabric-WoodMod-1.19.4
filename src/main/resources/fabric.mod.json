@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "wood_mod",
+	"id": "woodmod",
 	"version": "${version}",
 	"name": "Wood Mod",
 	"description": "Well, just learning and trying some shit here... Nothing great, so just ignore it I guess",
@@ -12,17 +12,17 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "MIT",
-	"icon": "assets/wood_mod/icon.png",
+	"icon": "assets/woodmod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-          "net.wood_studios.wood_mod.WoodMod"
+          "net.wood_studios.woodmod.WoodMod"
 		],
 		"client": [
-			"net.wood_studios.wood_mod.WoodModClient"
+			"net.wood_studios.woodmod.WoodModClient"
 		],
 		"fabric-datagen": [
-			"net.wood_studios.wood_mod.WoodModDataGenerator"
+			"net.wood_studios.woodmod.WoodModDataGenerator"
 		]
 	},
 	"mixins": [

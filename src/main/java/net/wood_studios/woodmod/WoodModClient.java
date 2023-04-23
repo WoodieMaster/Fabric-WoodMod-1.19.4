@@ -1,4 +1,4 @@
-package net.wood_studios.wood_mod;
+package net.wood_studios.woodmod;
 
 import net.fabricmc.api.ClientModInitializer;
 

@@ -1,4 +1,4 @@
-package net.wood_studios.wood_mod.mixin;
+package net.wood_studios.woodmod.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;
