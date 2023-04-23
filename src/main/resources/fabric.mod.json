@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "wood_mod",
+	"version": "${version}",
+	"name": "Wood Mod",
+	"description": "Well, just learning and trying some shit here... Nothing great, so just ignore it I guess",
+	"authors": [
+		"MasterWoodie"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/wood_mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "net.wood_studios.wood_mod.WoodMod"
+		],
+		"client": [
+			"net.wood_studios.wood_mod.WoodModClient"
+		],
+		"fabric-datagen": [
+			"net.wood_studios.wood_mod.WoodModDataGenerator"
+		]
+	},
+	"mixins": [
+		"wood_mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.19",
+		"minecraft": "~1.19.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
